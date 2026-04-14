@@ -10,7 +10,7 @@ namespace BaiTapQLCV.Controllers
 {
     public class CDataAccess
     {
-        private String connectionString = "Data Source=.\\MSSQL; Initial Catalog=LTHDT_QLCV_DB; UserID=LTHDT_K69; Password=LTHDT@123;";
+        private String connectionString = "Data Source=.\\MSSQL; Initial Catalog=LTHDT_QLCV_DB; User ID=LTHDT_K69; Password=LTHDT@123;";
 
         public DataTable Doc(String query)
         {
